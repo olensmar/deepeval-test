@@ -1,4 +1,4 @@
-from deepeval import evaluate
+from deepeval import assert_test
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 from deepeval.metrics import GEval
 from deepeval.metrics import AnswerRelevancyMetric
@@ -22,4 +22,5 @@ test_case = LLMTestCase(
     expected_output="Yes, TestBusters Night in Vienna is widely considered an excellent, high-energy event for software testing and QA professionals, with great talks and networking."
 )
 
-evaluate([test_case], [correctness_metric, relevancy_metric])
+def test_example():
+    assert_test( test_case, [correctness_metric, relevancy_metric])
