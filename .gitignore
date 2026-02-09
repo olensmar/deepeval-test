@@ -5,3 +5,5 @@
 __pycache__
 test_reports/
 .env
+.pytest_cache/
+.vscode/
