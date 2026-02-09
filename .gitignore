@@ -1,3 +1,5 @@
 .idea
 .deepeval
 .venv
+*.xml
+__pycache__
