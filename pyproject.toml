@@ -6,4 +6,6 @@ requires-python = ">=3.9"
 dependencies = ["deepeval"]
 
 [tool.setuptools.package-dir]
-# Editable install of local reporter: pip install -e ./deepeval_junit_reporter
+# Editable install of the reporter library:
+# pip install -e /path/to/deepeval-junit-reporter
+# (or: pip install -r requirements-dev.txt)
