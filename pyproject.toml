@@ -1,0 +1,9 @@
+[project]
+name = "deepeval-test"
+version = "0.1.0"
+description = "Deepeval test project with JUnit report output"
+requires-python = ">=3.9"
+dependencies = ["deepeval"]
+
+[tool.setuptools.package-dir]
+# Editable install of local reporter: pip install -e ./deepeval_junit_reporter
